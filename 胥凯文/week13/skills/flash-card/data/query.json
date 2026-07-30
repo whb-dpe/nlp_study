@@ -1,0 +1,28 @@
+{
+  "word": "query",
+  "phonetic": "/ˈkwɪəri/",
+  "pos": "n. & v.",
+  "definition": "疑问；询问；查询",
+  "examples": [
+    {
+      "en": "If you have a query about your order, please contact our customer service.",
+      "zh": "如果您对订单有疑问，请联系我们的客服。"
+    },
+    {
+      "en": "The database query returned no results.",
+      "zh": "数据库查询没有返回任何结果。"
+    },
+    {
+      "en": "She queried the accuracy of the report.",
+      "zh": "她对报告的准确性提出了质疑。"
+    }
+  ],
+  "synonyms": [
+    "question",
+    "inquiry",
+    "doubt",
+    "interrogation",
+    "request",
+    "investigation"
+  ]
+}

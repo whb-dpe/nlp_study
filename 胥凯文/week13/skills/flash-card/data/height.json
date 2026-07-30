@@ -1,0 +1,28 @@
+{
+  "word": "height",
+  "phonetic": "/haɪt/",
+  "pos": "n.",
+  "definition": "高度；身高；海拔",
+  "examples": [
+    {
+      "en": "The height of the mountain is over 8,000 meters.",
+      "zh": "这座山的高度超过8000米。"
+    },
+    {
+      "en": "His height makes him stand out in a crowd.",
+      "zh": "他的身高使他在人群中很显眼。"
+    },
+    {
+      "en": "The plane flew at a height of 10,000 feet.",
+      "zh": "飞机在10000英尺的高度飞行。"
+    }
+  ],
+  "synonyms": [
+    "altitude",
+    "stature",
+    "elevation",
+    "tallness",
+    "loftiness",
+    "highness"
+  ]
+}
