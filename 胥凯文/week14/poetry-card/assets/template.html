@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{POET_NAME}} - 诗词学习卡</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Ma+Shan+Zheng&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Serif SC',serif;background:linear-gradient(135deg,#f5f0e6 0%,#e8dcc8 100%);min-height:100vh;padding:40px 20px;color:#3a3226}
+.container{max-width:900px;margin:0 auto}
+.card{background:#fdfbf7;border-radius:8px;box-shadow:0 10px 40px rgba(58,50,38,.15);overflow:hidden;margin-bottom:30px;border:1px solid #d4c5a9}
+.header{background:linear-gradient(135deg,#8b4513 0%,#5c3317 100%);color:#f5f0e6;padding:50px 40px;text-align:center;position:relative}
+.header::before{content:'';position:absolute;top:15px;left:15px;right:15px;bottom:15px;border:1px solid rgba(245,240,230,.3);pointer-events:none}
+.poet-name{font-family:'Ma Shan Zheng',cursive;font-size:48px;margin-bottom:10px;letter-spacing:8px}
+.poet-title{font-size:18px;opacity:.9;letter-spacing:4px}
+.dynasty{display:inline-block;margin-top:15px;padding:5px 20px;background:rgba(245,240,230,.2);border-radius:20px;font-size:14px;letter-spacing:2px}
+.section{padding:40px}
+.section-poems{background:#eef5f2}
+.section-lines{background:#f5f0e3}
+.section-title{font-size:24px;font-weight:700;color:#5c3317;margin-bottom:25px;padding-bottom:10px;border-bottom:2px solid #d4c5a9;display:flex;align-items:center;gap:10px}
+.section-title::before{content:'◆';color:#8b4513;font-size:14px}
+.bio{font-size:16px;line-height:2;text-align:justify;text-indent:2em}
+.career{margin-top:16px;padding:16px 20px;background:#f3e8dc;border-left:4px solid #a0522d;border-radius:0 8px 8px 0}
+.career-title{font-size:15px;font-weight:700;color:#5c3317;margin-bottom:8px}
+.career-title::before{content:"📜 "}
+.career-content{font-size:15px;line-height:1.9;text-align:justify;color:#4a3520}
+.style-tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.tag{padding:6px 16px;background:#f0e6d3;color:#5c3317;border-radius:20px;font-size:14px;border:1px solid #d4c5a9}
+.classic-lines{display:flex;flex-direction:column;gap:20px}
+.line-item{padding:20px 25px;background:linear-gradient(135deg,#fffdf7 0%,#f7eed8 100%);border-left:4px solid #b8860b;border-radius:6px}
+.line-text{font-size:18px;font-weight:600;color:#5c3317;margin-bottom:10px;font-family:'Ma Shan Zheng',cursive;letter-spacing:2px}
+.line-source{font-size:13px;color:#8b4513;margin-bottom:8px;opacity:.8}
+.line-source::before{content:'—— '}
+.line-explanation{font-size:14px;line-height:1.8;color:#5a4a3a}
+.poem{margin-bottom:40px;padding-bottom:40px;border-bottom:1px dashed #d4c5a9}
+.poem:last-child{margin-bottom:0;padding-bottom:0;border-bottom:none}
+.poem-title{font-size:22px;font-weight:700;color:#5c3317;margin-bottom:20px;text-align:center;font-family:'Ma Shan Zheng',cursive;letter-spacing:4px}
+.poem-content{font-size:18px;line-height:2.5;text-align:center;margin-bottom:25px;padding:25px;background:#f8fbf9;border-radius:8px;white-space:pre-line}
+.poem-annotation,.poem-appreciation{margin-bottom:20px}
+.poem-annotation h4,.poem-appreciation h4{font-size:16px;color:#8b4513;margin-bottom:10px;font-weight:600}
+.poem-annotation p,.poem-appreciation p{font-size:15px;line-height:1.9;color:#5a4a3a}
+.footer{text-align:center;padding:30px;color:#8a7a6a;font-size:13px;border-top:1px solid #d4c5a9}
+@media print{body{background:#fff;padding:0}.card{box-shadow:none;border:none}}
+@media (max-width:600px){
+.header{padding:30px 20px}.poet-name{font-size:36px}.section{padding:25px 20px}
+.poem-content{font-size:16px;padding:15px}.line-text{font-size:16px}
+}
+</style>
+</head>
+<body>
+<div class="container"><div class="card">
+<div class="header">
+<div class="poet-name">{{POET_NAME}}</div>
+<div class="poet-title">{{POET_TITLE}}</div>
+<div class="dynasty">{{DYNASTY}}</div>
+</div>
+<div class="section">
+<div class="section-title">诗人简介</div>
+<div class="bio">{{BIO}}</div>
+{{CAREER}}
+<div class="style-tags">{{STYLE_TAGS}}</div>
+</div>
+<div class="section section-poems">
+<div class="section-title">代表作品</div>
+{{POEMS}}
+</div>
+<div class="section section-lines">
+<div class="section-title">经典诗句</div>
+<div class="classic-lines">{{CLASSIC_LINES}}</div>
+</div>
+<div class="footer">诗词学习卡 · 愿君多采撷，此物最相思</div>
+</div></div>
+</body>
+</html>

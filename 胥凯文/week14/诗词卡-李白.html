@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>李白 - 诗词学习卡</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Ma+Shan+Zheng&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Serif SC',serif;background:linear-gradient(135deg,#f5f0e6 0%,#e8dcc8 100%);min-height:100vh;padding:40px 20px;color:#3a3226}
+.container{max-width:900px;margin:0 auto}
+.card{background:#fdfbf7;border-radius:8px;box-shadow:0 10px 40px rgba(58,50,38,.15);overflow:hidden;margin-bottom:30px;border:1px solid #d4c5a9}
+.header{background:linear-gradient(135deg,#8b4513 0%,#5c3317 100%);color:#f5f0e6;padding:50px 40px;text-align:center;position:relative}
+.header::before{content:'';position:absolute;top:15px;left:15px;right:15px;bottom:15px;border:1px solid rgba(245,240,230,.3);pointer-events:none}
+.poet-name{font-family:'Ma Shan Zheng',cursive;font-size:48px;margin-bottom:10px;letter-spacing:8px}
+.poet-title{font-size:18px;opacity:.9;letter-spacing:4px}
+.dynasty{display:inline-block;margin-top:15px;padding:5px 20px;background:rgba(245,240,230,.2);border-radius:20px;font-size:14px;letter-spacing:2px}
+.section{padding:40px}
+.section-poems{background:#eef5f2}
+.section-lines{background:#f5f0e3}
+.section-title{font-size:24px;font-weight:700;color:#5c3317;margin-bottom:25px;padding-bottom:10px;border-bottom:2px solid #d4c5a9;display:flex;align-items:center;gap:10px}
+.section-title::before{content:'◆';color:#8b4513;font-size:14px}
+.bio{font-size:16px;line-height:2;text-align:justify;text-indent:2em}
+.career{margin-top:16px;padding:16px 20px;background:#f3e8dc;border-left:4px solid #a0522d;border-radius:0 8px 8px 0}
+.career-title{font-size:15px;font-weight:700;color:#5c3317;margin-bottom:8px}
+.career-title::before{content:"📜 "}
+.career-content{font-size:15px;line-height:1.9;text-align:justify;color:#4a3520}
+.style-tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.tag{padding:6px 16px;background:#f0e6d3;color:#5c3317;border-radius:20px;font-size:14px;border:1px solid #d4c5a9}
+.classic-lines{display:flex;flex-direction:column;gap:20px}
+.line-item{padding:20px 25px;background:linear-gradient(135deg,#fffdf7 0%,#f7eed8 100%);border-left:4px solid #b8860b;border-radius:6px}
+.line-text{font-size:18px;font-weight:600;color:#5c3317;margin-bottom:10px;font-family:'Ma Shan Zheng',cursive;letter-spacing:2px}
+.line-source{font-size:13px;color:#8b4513;margin-bottom:8px;opacity:.8}
+.line-source::before{content:'—— '}
+.line-explanation{font-size:14px;line-height:1.8;color:#5a4a3a}
+.poem{margin-bottom:40px;padding-bottom:40px;border-bottom:1px dashed #d4c5a9}
+.poem:last-child{margin-bottom:0;padding-bottom:0;border-bottom:none}
+.poem-title{font-size:22px;font-weight:700;color:#5c3317;margin-bottom:20px;text-align:center;font-family:'Ma Shan Zheng',cursive;letter-spacing:4px}
+.poem-content{font-size:18px;line-height:2.5;text-align:center;margin-bottom:25px;padding:25px;background:#f8fbf9;border-radius:8px;white-space:pre-line}
+.poem-annotation,.poem-appreciation{margin-bottom:20px}
+.poem-annotation h4,.poem-appreciation h4{font-size:16px;color:#8b4513;margin-bottom:10px;font-weight:600}
+.poem-annotation p,.poem-appreciation p{font-size:15px;line-height:1.9;color:#5a4a3a}
+.footer{text-align:center;padding:30px;color:#8a7a6a;font-size:13px;border-top:1px solid #d4c5a9}
+@media print{body{background:#fff;padding:0}.card{box-shadow:none;border:none}}
+@media (max-width:600px){
+.header{padding:30px 20px}.poet-name{font-size:36px}.section{padding:25px 20px}
+.poem-content{font-size:16px;padding:15px}.line-text{font-size:16px}
+}
+</style>
+</head>
+<body>
+<div class="container"><div class="card">
+<div class="header">
+<div class="poet-name">李白</div>
+<div class="poet-title">诗仙</div>
+<div class="dynasty">唐代</div>
+</div>
+<div class="section">
+<div class="section-title">诗人简介</div>
+<div class="bio">李白（701年—762年），字太白，号青莲居士，又号「谪仙人」，唐代伟大的浪漫主义诗人，被后人誉为「诗仙」，与杜甫并称为「李杜」。其诗风格豪放飘逸、富有浪漫主义精神，达到了古代积极浪漫主义诗歌艺术的巅峰。李白存世诗文千余篇，有《李太白集》传世。其诗想象奇特，语言清新明快，气势雄浑瑰丽，在盛唐诗坛独树一帜。他的诗歌既反映了盛唐时代的繁荣气象，也揭露和批判了统治集团的荒淫和腐败，表现出蔑视权贵、反抗传统束缚、追求自由和理想的积极精神。</div>
+<div class="career"><div class="career-title">生平经历</div><div class="career-content">李白早年在蜀中读书学道，遍览百家之书，25岁时「仗剑去国，辞亲远游」，出蜀漫游天下。天宝元年（742年），因道士吴筠及贺知章的推荐，被唐玄宗召入长安，供奉翰林，为皇帝草拟文告、陪侍游宴，名动一时。但因性格傲岸，得罪权贵，不到三年便被「赐金放还」，再度开始漫游生活。安史之乱爆发后，李白怀着平乱报国的心愿加入永王李璘幕府，后永王因擅兵东巡被定为叛逆，李白受牵连入狱，被流放夜郎（今贵州一带）。乾元二年（759年）行至白帝城时遇赦，欣喜之余写下《早发白帝城》。晚年漂泊于江南一带，依附族叔当涂县令李阳冰，宝应元年（762年）病逝于当涂，享年62岁。</div></div>
+<div class="style-tags"><span class="tag">浪漫主义</span><span class="tag">豪放飘逸</span><span class="tag">想象奇特</span><span class="tag">清新自然</span><span class="tag">气势磅礴</span></div>
+</div>
+<div class="section section-poems">
+<div class="section-title">代表作品</div>
+<div class="poem"><div class="poem-title">将进酒</div><div class="poem-content">君不见黄河之水天上来，奔流到海不复回。
+君不见高堂明镜悲白发，朝如青丝暮成雪。
+人生得意须尽欢，莫使金樽空对月。
+天生我材必有用，千金散尽还复来。
+烹羊宰牛且为乐，会须一饮三百杯。
+岑夫子，丹丘生，将进酒，杯莫停。
+与君歌一曲，请君为我倾耳听。
+钟鼓馔玉不足贵，但愿长醉不复醒。
+古来圣贤皆寂寞，惟有饮者留其名。
+陈王昔时宴平乐，斗酒十千恣欢谑。
+主人何为言少钱，径须沽取对君酌。
+五花马、千金裘，呼儿将出换美酒，与尔同销万古愁。</div><div class="poem-annotation"><h4>📝 译文</h4><p>你难道没有看见吗？那黄河之水犹如从天上倾泻而来，波涛翻滚直奔东海从来不会再往回流。你难道没有看见吗？那年迈的父母对着明镜悲叹那一头白发，早晨还是青丝到了傍晚却变得如雪一般。人生得意之时就要尽情享受欢乐，不要让金杯无酒空对皎洁的明月。上天造就了我的才干就必然是有用处的，千两黄金花完了也能够再次获得。且把烹煮羔羊和宰牛当成一件快乐的事情，如果需要也应当痛快地喝三百杯。岑勋，元丹丘，快点喝酒，不要停下来。我给你们唱一首歌，请你们为我倾耳细听。山珍海味的豪华生活算不上什么珍贵，只希望能醉生梦死而不愿清醒。自古以来圣贤都是孤独寂寞的，只有会喝酒的人才能够留传美名。陈王曹植当年设宴平乐观，喝着名贵的酒纵情地欢乐。你为何说我的钱不多？只管把这些钱用来买酒一起喝。名贵的五花良马，昂贵的千金皮衣，叫侍儿拿去统统换美酒，让我们一起来消除这无尽的长愁！</p></div><div class="poem-appreciation"><h4>🎨 赏析</h4><p>《将进酒》是李白最具代表性的作品之一，全诗气势磅礴，情感奔放，具有震撼古今的气势与力量。诗人以豪放的语言，抒写了对人生、对富贵、对圣贤的看法，既表现出对功名富贵的蔑视，也流露出怀才不遇的苦闷。诗中「天生我材必有用」一句，更是成为千古名言，激励着无数后人。全诗大起大落，奔放跌宕，既有对时光流逝的感叹，也有对及时行乐的宣扬，更有对自身才华的自信，充分展现了李白狂放不羁的性格和豪迈洒脱的诗风。</p></div></div><div class="poem"><div class="poem-title">静夜思</div><div class="poem-content">床前明月光，疑是地上霜。
+举头望明月，低头思故乡。</div><div class="poem-annotation"><h4>📝 译文</h4><p>明亮的月光洒在床前的窗户纸上，好像地上泛起了一层白霜。我禁不住抬起头来，看那天窗外空中的一轮明月，不由得低头沉思，想起远方的家乡。</p></div><div class="poem-appreciation"><h4>🎨 赏析</h4><p>这首小诗既没有奇特新颖的想象，更没有精工华美的辞藻，它只是用叙述的语气，写远客思乡之情，然而它却意味深长，耐人寻味。全诗从「疑」到「望」到「思」，形象地揭示了诗人的内心活动，鲜明地勾勒出一幅生动形象的月夜思乡图。千百年来，这首小诗广为传诵，成为游子思乡的代表作。</p></div></div><div class="poem"><div class="poem-title">蜀道难</div><div class="poem-content">噫吁嚱，危乎高哉！蜀道之难，难于上青天！
+蚕丛及鱼凫，开国何茫然！
+尔来四万八千岁，不与秦塞通人烟。
+西当太白有鸟道，可以横绝峨眉巅。
+地崩山摧壮士死，然后天梯石栈相钩连。
+上有六龙回日之高标，下有冲波逆折之回川。
+黄鹤之飞尚不得过，猿猱欲度愁攀援。
+青泥何盘盘，百步九折萦岩峦。
+扪参历井仰胁息，以手抚膺坐长叹。
+问君西游何时还？畏途巉岩不可攀。
+但见悲鸟号古木，雄飞雌从绕林间。
+又闻子规啼夜月，愁空山。
+蜀道之难，难于上青天，使人听此凋朱颜！
+连峰去天不盈尺，枯松倒挂倚绝壁。
+飞湍瀑流争喧豗，砯崖转石万壑雷。
+其险也如此，嗟尔远道之人胡为乎来哉！
+剑阁峥嵘而崔嵬，一夫当关，万夫莫开。
+所守或匪亲，化为狼与豺。
+朝避猛虎，夕避长蛇，磨牙吮血，杀人如麻。
+锦城虽云乐，不如早还家。
+蜀道之难，难于上青天，侧身西望长咨嗟！</div><div class="poem-annotation"><h4>📝 译文</h4><p>唉呀呀！多么高峻伟岸！蜀道难以攀越，简直比登天还难。传说中蚕丛和鱼凫建立了蜀国，开国的年代实在久远无法详谈。从那时至今约有四万八千年了吧，秦蜀被秦岭所阻从不沟通往返。西边太白山高峻挡路，只有飞鸟才能通行，飞越峨眉山顶。山崩地裂蜀国五壮士被压死了，两地才有天梯栈道开始相通连。上有挡住太阳神六龙车的山巅，下有激浪排空纡回曲折的大川。善于高飞的黄鹤尚且无法飞过，即使猢狲要想翻过也愁于攀援。青泥岭多么曲折绕着山峦盘旋，百步之内萦绕岩峦转九个弯弯。可以摸到参、井星，叫人仰首屏息，用手抚胸惊恐不已徒然长叹息。好朋友呵请问你西游何时回还？可怕的岩山栈道实在难以登攀！只见那悲鸟在古树上哀鸣啼叫，雄雌相随飞翔在茂密树丛之间。月夜又听到杜鹃凄凉的悲啼，在空山中回荡，愁绪绵绵。蜀道难以攀越，简直比登天还难，叫人听到这些怎么不脸色突变？山峰座座相连离天还不到一尺，枯松老枝倒挂倚贴在绝壁之间。漩涡飞转瀑布飞泻争相喧闹着，水石相击转动像万壑鸣雷一般。那去处恶劣艰险到了这种地步，唉呀呀你这个远方而来的客人，为了什么要来到这个地方？剑阁那地方崇峻巍峨高入云端，只要一人把守千军万马也难攻占。驻守的官员若不是皇家的近亲，难免要变为豺狼踞此为非造反。清晨你要提心吊胆地躲避猛虎，傍晚你要警觉防范长蛇的灾难。豺狼虎豹磨牙吮血真叫人不安，毒蛇猛兽杀人如麻即令你胆寒。锦官城虽然说是个快乐的所在，如此险恶还不如早早地把家还。蜀道难以攀越呵简直比登天还难，侧身向西望不由得抚膺长叹！</p></div><div class="poem-appreciation"><h4>🎨 赏析</h4><p>《蜀道难》是李白的成名作，全诗以雄健奔放的笔调，运用夸张形容的手法，描绘了由秦入蜀道路上惊险而奇丽的山川，表现了诗人对祖国山河的热爱与赞美，同时也透露了对社会的某些忧虑与关切。诗中「蜀道之难，难于上青天」的咏叹反复出现，像一首乐曲的主旋律一样激荡着读者的心弦。全诗想象丰富，夸张大胆，句式参差多变，形成了极为奔放的语言风格，充分体现了李白诗歌的浪漫主义特色。</p></div></div>
+</div>
+<div class="section section-lines">
+<div class="section-title">经典诗句</div>
+<div class="classic-lines"><div class="line-item"><div class="line-text">飞流直下三千尺，疑是银河落九天</div><div class="line-source">《望庐山瀑布》</div><div class="line-explanation">这两句诗描写庐山瀑布从高处飞泻而下的壮观景象，用夸张的比喻和浪漫的想象，把瀑布比作从九天之上倾泻而下的银河，既写出了山的高峻陡峭，也写出了水的奔腾气势，体现了李白诗歌特有的雄奇豪放和惊人想象力，成为描写瀑布的千古绝唱。</div></div><div class="line-item"><div class="line-text">长风破浪会有时，直挂云帆济沧海</div><div class="line-source">《行路难·其一》</div><div class="line-explanation">尽管前路障碍重重，但诗人相信总有一天能够乘长风破万里浪，挂上云帆横渡沧海，到达理想的彼岸。这两句诗境界开阔，充满了积极乐观的精神，表达了诗人对人生前途的豪迈气概和执着信念。</div></div><div class="line-item"><div class="line-text">举杯邀明月，对影成三人</div><div class="line-source">《月下独酌》</div><div class="line-explanation">诗人在月夜花下独酌，无人亲近，便邀请明月和自己的影子相伴，凑成三人。诗句想象奇特，既表现了诗人的孤独寂寞，又展现了他旷达超脱的胸襟，体现了李白诗歌特有的浪漫主义情怀。</div></div></div>
+</div>
+<div class="footer">诗词学习卡 · 愿君多采撷，此物最相思</div>
+</div></div>
+</body>
+</html>

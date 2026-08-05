@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>杜甫 - 诗词学习卡</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Ma+Shan+Zheng&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Serif SC',serif;background:linear-gradient(135deg,#f5f0e6 0%,#e8dcc8 100%);min-height:100vh;padding:40px 20px;color:#3a3226}
+.container{max-width:900px;margin:0 auto}
+.card{background:#fdfbf7;border-radius:8px;box-shadow:0 10px 40px rgba(58,50,38,.15);overflow:hidden;margin-bottom:30px;border:1px solid #d4c5a9}
+.header{background:linear-gradient(135deg,#8b4513 0%,#5c3317 100%);color:#f5f0e6;padding:50px 40px;text-align:center;position:relative}
+.header::before{content:'';position:absolute;top:15px;left:15px;right:15px;bottom:15px;border:1px solid rgba(245,240,230,.3);pointer-events:none}
+.poet-name{font-family:'Ma Shan Zheng',cursive;font-size:48px;margin-bottom:10px;letter-spacing:8px}
+.poet-title{font-size:18px;opacity:.9;letter-spacing:4px}
+.dynasty{display:inline-block;margin-top:15px;padding:5px 20px;background:rgba(245,240,230,.2);border-radius:20px;font-size:14px;letter-spacing:2px}
+.section{padding:40px}
+.section-poems{background:#eef5f2}
+.section-lines{background:#f5f0e3}
+.section-title{font-size:24px;font-weight:700;color:#5c3317;margin-bottom:25px;padding-bottom:10px;border-bottom:2px solid #d4c5a9;display:flex;align-items:center;gap:10px}
+.section-title::before{content:'◆';color:#8b4513;font-size:14px}
+.bio{font-size:16px;line-height:2;text-align:justify;text-indent:2em}
+.career{margin-top:16px;padding:16px 20px;background:#f3e8dc;border-left:4px solid #a0522d;border-radius:0 8px 8px 0}
+.career-title{font-size:15px;font-weight:700;color:#5c3317;margin-bottom:8px}
+.career-title::before{content:"📜 "}
+.career-content{font-size:15px;line-height:1.9;text-align:justify;color:#4a3520}
+.style-tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.tag{padding:6px 16px;background:#f0e6d3;color:#5c3317;border-radius:20px;font-size:14px;border:1px solid #d4c5a9}
+.classic-lines{display:flex;flex-direction:column;gap:20px}
+.line-item{padding:20px 25px;background:linear-gradient(135deg,#fffdf7 0%,#f7eed8 100%);border-left:4px solid #b8860b;border-radius:6px}
+.line-text{font-size:18px;font-weight:600;color:#5c3317;margin-bottom:10px;font-family:'Ma Shan Zheng',cursive;letter-spacing:2px}
+.line-source{font-size:13px;color:#8b4513;margin-bottom:8px;opacity:.8}
+.line-source::before{content:'—— '}
+.line-explanation{font-size:14px;line-height:1.8;color:#5a4a3a}
+.poem{margin-bottom:40px;padding-bottom:40px;border-bottom:1px dashed #d4c5a9}
+.poem:last-child{margin-bottom:0;padding-bottom:0;border-bottom:none}
+.poem-title{font-size:22px;font-weight:700;color:#5c3317;margin-bottom:20px;text-align:center;font-family:'Ma Shan Zheng',cursive;letter-spacing:4px}
+.poem-content{font-size:18px;line-height:2.5;text-align:center;margin-bottom:25px;padding:25px;background:#f8fbf9;border-radius:8px;white-space:pre-line}
+.poem-annotation,.poem-appreciation{margin-bottom:20px}
+.poem-annotation h4,.poem-appreciation h4{font-size:16px;color:#8b4513;margin-bottom:10px;font-weight:600}
+.poem-annotation p,.poem-appreciation p{font-size:15px;line-height:1.9;color:#5a4a3a}
+.footer{text-align:center;padding:30px;color:#8a7a6a;font-size:13px;border-top:1px solid #d4c5a9}
+@media print{body{background:#fff;padding:0}.card{box-shadow:none;border:none}}
+@media (max-width:600px){
+.header{padding:30px 20px}.poet-name{font-size:36px}.section{padding:25px 20px}
+.poem-content{font-size:16px;padding:15px}.line-text{font-size:16px}
+}
+</style>
+</head>
+<body>
+<div class="container"><div class="card">
+<div class="header">
+<div class="poet-name">杜甫</div>
+<div class="poet-title">诗圣</div>
+<div class="dynasty">唐代</div>
+</div>
+<div class="section">
+<div class="section-title">诗人简介</div>
+<div class="bio">杜甫（712年—770年），字子美，自号少陵野老，唐代伟大的现实主义诗人，与李白合称「李杜」。杜甫在中国古典诗歌中的影响非常深远，被后人称为「诗圣」，他的诗被称为「诗史」。杜甫创作了《登高》《春望》《北征》以及「三吏」、「三别」等名作。他的诗歌以古体、律诗见长，风格多样，而以沉郁顿挫为主。杜甫的思想核心是仁政思想，他有「致君尧舜上，再使风俗淳」的宏伟抱负。他的诗反映了唐代由盛转衰的历史过程，具有丰富的社会内容、强烈的时代色彩和鲜明的政治倾向。</div>
+<div class="career"><div class="career-title">生平经历</div><div class="career-content">杜甫早年多次漫游各地，开元二十三年（735年）参加科举落第，后在长安困居十年，四处投献干谒，直到天宝十四载（755年）才被任命为右卫率府兵曹参军这一小官。安史之乱爆发后，长安陷落，杜甫被俘困于城中，后冒险逃出投奔唐肃宗，被授为左拾遗。不久因上疏救房琯触怒肃宗，被贬为华州司功参军，乾元二年（759年）弃官西行，经秦州入蜀。在成都期间，靠友人严武等人帮助建成浣花草堂，严武表荐其为检校工部员外郎（故世称「杜工部」）。永泰元年（765年）严武去世，杜甫失去依靠，携家离开成都，辗转夔州、江陵、潭州等地，大历五年（770年）冬病逝于由潭州往岳阳的一条小船上，享年59岁。</div></div>
+<div class="style-tags"><span class="tag">现实主义</span><span class="tag">沉郁顿挫</span><span class="tag">忧国忧民</span><span class="tag">格律严谨</span><span class="tag">炼字精准</span></div>
+</div>
+<div class="section section-poems">
+<div class="section-title">代表作品</div>
+<div class="poem"><div class="poem-title">春望</div><div class="poem-content">国破山河在，城春草木深。
+感时花溅泪，恨别鸟惊心。
+烽火连三月，家书抵万金。
+白头搔更短，浑欲不胜簪。</div><div class="poem-annotation"><h4>📝 译文</h4><p>长安沦陷，国家破碎，只有山河依旧；春天来了，人烟稀少的长安城里草木茂密。感伤国事，不禁涕泪四溅，鸟鸣惊心，徒增离愁别恨。连绵的战火已经延续到了现在，家书难得，一封抵得上万两黄金。愁绪缠绕，搔头思考，白发越搔越短，简直插不了簪了。</p></div><div class="poem-appreciation"><h4>🎨 赏析</h4><p>这首诗是杜甫「安史之乱」期间在长安所作。诗的前四句写春日长安凄惨破败的景象，饱含着兴衰感慨；后四句写诗人挂念亲人、心系国事的情怀，充溢着凄苦哀思。全诗沉着蕴藉，真挚自然，反映了诗人热爱祖国、眷怀家人的感情。「家书抵万金」一句，更是写出了消息隔绝久盼音讯不至时的迫切心情，成为千古传诵的名言。</p></div></div><div class="poem"><div class="poem-title">登高</div><div class="poem-content">风急天高猿啸哀，渚清沙白鸟飞回。
+无边落木萧萧下，不尽长江滚滚来。
+万里悲秋常作客，百年多病独登台。
+艰难苦恨繁霜鬓，潦倒新停浊酒杯。</div><div class="poem-annotation"><h4>📝 译文</h4><p>风急天高猿猴啼叫显得十分悲哀，水清沙白的河洲上有鸟儿在盘旋。无边无际的树木萧萧地飘下落叶，望不到头的长江水滚滚奔腾而来。悲对秋景感慨万里漂泊常年为客，一生当中疾病缠身今日独上高台。历尽了艰难苦恨白发长满了双鬓，衰颓满心偏又暂停了浇愁的酒杯。</p></div><div class="poem-appreciation"><h4>🎨 赏析</h4><p>《登高》是杜甫晚年的代表作，被后人誉为「古今七言律第一」。前四句写登高见闻，描绘了江边空旷寂寥的景致；后四句写登高所感，抒发了诗人穷困潦倒、年老多病、流寓他乡的悲哀之情。全诗通过登高所见秋江景色，倾诉了诗人长年漂泊、老病孤愁的复杂感情，慷慨激越，动人心弦。「无边落木萧萧下，不尽长江滚滚来」两句，境界壮阔，气势磅礴，融情于景，达到了物我交融的境界。</p></div></div><div class="poem"><div class="poem-title">茅屋为秋风所破歌</div><div class="poem-content">八月秋高风怒号，卷我屋上三重茅。茅飞渡江洒江郊，高者挂罥长林梢，下者飘转沉塘坳。
+南村群童欺我老无力，忍能对面为盗贼。公然抱茅入竹去，唇焦口燥呼不得，归来倚杖自叹息。
+俄顷风定云墨色，秋天漠漠向昏黑。布衾多年冷似铁，娇儿恶卧踏里裂。床头屋漏无干处，雨脚如麻未断绝。自经丧乱少睡眠，长夜沾湿何由彻！
+安得广厦千万间，大庇天下寒士俱欢颜！风雨不动安如山。呜呼！何时眼前突兀见此屋，吾庐独破受冻死亦足！</div><div class="poem-annotation"><h4>📝 译文</h4><p>八月秋深狂风大声吼叫，狂风卷走了我屋顶上好几层茅草。茅草乱飞渡过浣花溪散落在对岸江边，飞得高的茅草缠绕在高高的树梢上，飞得低的飘飘洒洒沉落到池塘和洼地里。南村的一群儿童欺负我年老没力气，竟忍心这样当面做「贼」抢东西，明目张胆地抱着茅草跑进竹林里去了。我费尽口舌也喝止不住，回到家后拄着拐杖独自叹息。不久后风停了天空上的云像墨一样黑，秋季的天空阴沉迷蒙渐渐黑了下来。布质的被子盖了多年又冷又硬像铁板似的，孩子睡觉姿势不好把被子蹬破了。如遇下雨整个屋子没有一点儿干燥的地方，雨点像下垂的麻线一样不停地往下漏。自从安史之乱之后我睡眠的时间很少，长夜漫漫屋漏床湿，如何挨到天亮！如何能得到千万间宽敞高大的房子，普遍地庇覆天下间贫寒的读书人，让他们开颜欢笑！安稳得像是山一样。唉！什么时候眼前出现这样高耸的房屋，到那时即使我的茅屋被秋风所吹破我自己受冻而死也心甘情愿！</p></div><div class="poem-appreciation"><h4>🎨 赏析</h4><p>这首诗是杜甫旅居四川成都草堂期间创作的一首歌行体古诗。此诗叙述作者的茅屋被秋风所破以致全家遭雨淋的痛苦经历，抒发了自己内心的感慨，体现了诗人忧国忧民的崇高思想境界。诗中最可贵的是诗人在自身处境艰难之时，想到的不是自己，而是「天下寒士」，发出了「安得广厦千万间，大庇天下寒士俱欢颜」的呼喊，表现出推己及人、舍己为人的高尚风格和忧国忧民的情感。</p></div></div>
+</div>
+<div class="section section-lines">
+<div class="section-title">经典诗句</div>
+<div class="classic-lines"><div class="line-item"><div class="line-text">会当凌绝顶，一览众山小</div><div class="line-source">《望岳》</div><div class="line-explanation">一定要登上泰山的最高峰，俯瞰那众山，而众山在我眼中是多么的渺小。这两句诗表现了杜甫青年时代不怕困难、敢于攀登绝顶、俯视一切的雄心和气概，充满了蓬勃向上的朝气，成为激励人们勇攀高峰的千古名句。</div></div><div class="line-item"><div class="line-text">随风潜入夜，润物细无声</div><div class="line-source">《春夜喜雨》</div><div class="line-explanation">这两句诗描写春雨在夜间悄悄降临、无声无息滋润万物的特点。「潜」字和「细无声」将春雨拟人化，写出了雨的轻柔与体贴，不事张扬却默默滋养大地。既是对春夜雨景的精确描摹，也常用来比喻那些潜移默化、默默奉献的人或事，意境深远而富有哲理。</div></div><div class="line-item"><div class="line-text">露从今夜白，月是故乡明</div><div class="line-source">《月夜忆舍弟》</div><div class="line-explanation">这两句诗写于安史之乱中，诗人与兄弟离散，在白露之夜望月思亲。明明是普天之下共一轮明月，诗人却偏要说故乡的月亮最明；明明是自己的心理幻觉，偏要说得那么肯定。这种以幻作真的写法，极深刻地表现了对故乡的感怀和对亲人的思念，成为千古思乡名句。</div></div></div>
+</div>
+<div class="footer">诗词学习卡 · 愿君多采撷，此物最相思</div>
+</div></div>
+</body>
+</html>
