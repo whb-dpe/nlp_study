@@ -1,0 +1,2630 @@
+{
+  "baseline": {
+    "accuracy": 0.5,
+    "correct": 80,
+    "total": 160,
+    "op_accuracies": {
+      "+": 0.85,
+      "-": 0.5,
+      "*": 0.3,
+      "/": 0.35
+    },
+    "op_stats": {
+      "+": {
+        "correct": 34,
+        "total": 40
+      },
+      "-": {
+        "correct": 20,
+        "total": 40
+      },
+      "*": {
+        "correct": 12,
+        "total": 40
+      },
+      "/": {
+        "correct": 14,
+        "total": 40
+      }
+    }
+  },
+  "gpro": {
+    "accuracy": 0.7125,
+    "correct": 114,
+    "total": 160,
+    "op_accuracies": {
+      "+": 0.95,
+      "-": 0.925,
+      "*": 0.35,
+      "/": 0.625
+    },
+    "op_stats": {
+      "+": {
+        "correct": 38,
+        "total": 40
+      },
+      "-": {
+        "correct": 37,
+        "total": 40
+      },
+      "*": {
+        "correct": 14,
+        "total": 40
+      },
+      "/": {
+        "correct": 25,
+        "total": 40
+      }
+    }
+  },
+  "improvement": {
+    "absolute": 0.21250000000000002,
+    "relative_pct": 42.50000000000001
+  },
+  "detailed_results": {
+    "baseline": [
+      {
+        "question": "请计算: 156 * 109 = ?",
+        "expected": 17004,
+        "predicted_text": "156 * 109 = 17084",
+        "predicted_num": 17084.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 103 - 81 = ?",
+        "expected": 22,
+        "predicted_text": "22",
+        "predicted_num": 22.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 264 / 44 = ?",
+        "expected": 6,
+        "predicted_text": "6",
+        "predicted_num": 6.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 185 * 30 = ?",
+        "expected": 5550,
+        "predicted_text": "5550",
+        "predicted_num": 5550.0,
+        "correct": true,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 118 + 138 = ?",
+        "expected": 256,
+        "predicted_text": "256",
+        "predicted_num": 256.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 62 * 146 = ?",
+        "expected": 9052,
+        "predicted_text": "8932",
+        "predicted_num": 8932.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 62 * 15 = ?",
+        "expected": 930,
+        "predicted_text": "930",
+        "predicted_num": 930.0,
+        "correct": true,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 672 / 84 = ?",
+        "expected": 8,
+        "predicted_text": "8",
+        "predicted_num": 8.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 96 * 196 = ?",
+        "expected": 18816,
+        "predicted_text": "18576",
+        "predicted_num": 18576.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 179 + 109 = ?",
+        "expected": 288,
+        "predicted_text": "388",
+        "predicted_num": 388.0,
+        "correct": false,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 68 * 136 = ?",
+        "expected": 9248,
+        "predicted_text": "9008",
+        "predicted_num": 9008.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 28 * 161 = ?",
+        "expected": 4508,
+        "predicted_text": "4548",
+        "predicted_num": 4548.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 94 - 42 = ?",
+        "expected": 52,
+        "predicted_text": "52",
+        "predicted_num": 52.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 32 + 97 = ?",
+        "expected": 129,
+        "predicted_text": "129",
+        "predicted_num": 129.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 710 / 71 = ?",
+        "expected": 10,
+        "predicted_text": "10.000000",
+        "predicted_num": 10.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 92 + 89 = ?",
+        "expected": 181,
+        "predicted_text": "181",
+        "predicted_num": 181.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 99 - 17 = ?",
+        "expected": 82,
+        "predicted_text": "82",
+        "predicted_num": 82.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 155 + 7 = ?",
+        "expected": 162,
+        "predicted_text": "162",
+        "predicted_num": 162.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 230 / 10 = ?",
+        "expected": 23,
+        "predicted_text": "23",
+        "predicted_num": 23.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 98 + 25 = ?",
+        "expected": 123,
+        "predicted_text": "123",
+        "predicted_num": 123.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 189 + 27 = ?",
+        "expected": 216,
+        "predicted_text": "216",
+        "predicted_num": 216.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 255 / 15 = ?",
+        "expected": 17,
+        "predicted_text": "外层：255 ÷ 15 = 17 内层：17 × 17 = 289",
+        "predicted_num": 289.0,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 2400 / 75 = ?",
+        "expected": 32,
+        "predicted_text": "32.0",
+        "predicted_num": 32.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 181 + 18 = ?",
+        "expected": 199,
+        "predicted_text": "309",
+        "predicted_num": 309.0,
+        "correct": false,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 75 + 21 = ?",
+        "expected": 96,
+        "predicted_text": "96",
+        "predicted_num": 96.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 156 - 19 = ?",
+        "expected": 137,
+        "predicted_text": "37",
+        "predicted_num": 37.0,
+        "correct": false,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 196 + 87 = ?",
+        "expected": 283,
+        "predicted_text": "283",
+        "predicted_num": 283.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 150 - 110 = ?",
+        "expected": 40,
+        "predicted_text": "40",
+        "predicted_num": 40.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 1152 / 72 = ?",
+        "expected": 16,
+        "predicted_text": "17.0",
+        "predicted_num": 17.0,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 156 / 4 = ?",
+        "expected": 39,
+        "predicted_text": "39",
+        "predicted_num": 39.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 129 * 196 = ?",
+        "expected": 25284,
+        "predicted_text": "24,854",
+        "predicted_num": 24854.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 112 / 14 = ?",
+        "expected": 8,
+        "predicted_text": "8.071428571428571",
+        "predicted_num": 8.071428571428571,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 128 - 102 = ?",
+        "expected": 26,
+        "predicted_text": "128 - 102 = 26",
+        "predicted_num": 26.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 960 / 64 = ?",
+        "expected": 15,
+        "predicted_text": "12.5",
+        "predicted_num": 12.5,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 475 / 95 = ?",
+        "expected": 5,
+        "predicted_text": "5.023076923076923",
+        "predicted_num": 5.023076923076923,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 71 + 63 = ?",
+        "expected": 134,
+        "predicted_text": "134",
+        "predicted_num": 134.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 177 - 143 = ?",
+        "expected": 34,
+        "predicted_text": "34",
+        "predicted_num": 34.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 153 - 109 = ?",
+        "expected": 44,
+        "predicted_text": "44",
+        "predicted_num": 44.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 364 / 26 = ?",
+        "expected": 14,
+        "predicted_text": "14.07692307692308",
+        "predicted_num": 14.07692307692308,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 576 / 72 = ?",
+        "expected": 8,
+        "predicted_text": "8",
+        "predicted_num": 8.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 344 / 8 = ?",
+        "expected": 43,
+        "predicted_text": "42.5",
+        "predicted_num": 42.5,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 57 - 36 = ?",
+        "expected": 21,
+        "predicted_text": "21",
+        "predicted_num": 21.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 159 + 93 = ?",
+        "expected": 252,
+        "predicted_text": "252",
+        "predicted_num": 252.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 146 - 55 = ?",
+        "expected": 91,
+        "predicted_text": "91",
+        "predicted_num": 91.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 177 * 52 = ?",
+        "expected": 9204,
+        "predicted_text": "8904",
+        "predicted_num": 8904.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 172 - 54 = ?",
+        "expected": 118,
+        "predicted_text": "118",
+        "predicted_num": 118.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 63 - 42 = ?",
+        "expected": 21,
+        "predicted_text": "11",
+        "predicted_num": 11.0,
+        "correct": false,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 40 + 56 = ?",
+        "expected": 96,
+        "predicted_text": "96",
+        "predicted_num": 96.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 175 - 166 = ?",
+        "expected": 9,
+        "predicted_text": "1",
+        "predicted_num": 1.0,
+        "correct": false,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 165 - 118 = ?",
+        "expected": 47,
+        "predicted_text": "57",
+        "predicted_num": 57.0,
+        "correct": false,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 18 * 195 = ?",
+        "expected": 3510,
+        "predicted_text": "3565",
+        "predicted_num": 3565.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 195 + 41 = ?",
+        "expected": 236,
+        "predicted_text": "236",
+        "predicted_num": 236.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 72 + 2 = ?",
+        "expected": 74,
+        "predicted_text": "74",
+        "predicted_num": 74.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 41 * 117 = ?",
+        "expected": 4797,
+        "predicted_text": "41 * 117 = 4857",
+        "predicted_num": 4857.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 12 + 170 = ?",
+        "expected": 182,
+        "predicted_text": "182",
+        "predicted_num": 182.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 103 - 93 = ?",
+        "expected": 10,
+        "predicted_text": "4",
+        "predicted_num": 4.0,
+        "correct": false,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 140 + 23 = ?",
+        "expected": 163,
+        "predicted_text": "163",
+        "predicted_num": 163.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 168 - 55 = ?",
+        "expected": 113,
+        "predicted_text": "113",
+        "predicted_num": 113.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 152 + 109 = ?",
+        "expected": 261,
+        "predicted_text": "261",
+        "predicted_num": 261.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 5 * 29 = ?",
+        "expected": 145,
+        "predicted_text": "145",
+        "predicted_num": 145.0,
+        "correct": true,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 65 * 142 = ?",
+        "expected": 9230,
+        "predicted_text": "9170",
+        "predicted_num": 9170.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 1363 / 47 = ?",
+        "expected": 29,
+        "predicted_text": "29.05263157894737",
+        "predicted_num": 29.05263157894737,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 1037 / 61 = ?",
+        "expected": 17,
+        "predicted_text": "18.5",
+        "predicted_num": 18.5,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 184 + 167 = ?",
+        "expected": 351,
+        "predicted_text": "351",
+        "predicted_num": 351.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 1 * 154 = ?",
+        "expected": 154,
+        "predicted_text": "1 * 154 = 154",
+        "predicted_num": 154.0,
+        "correct": true,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 551 / 19 = ?",
+        "expected": 29,
+        "predicted_text": "30.52941176470588",
+        "predicted_num": 30.52941176470588,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 76 * 112 = ?",
+        "expected": 8512,
+        "predicted_text": "8432",
+        "predicted_num": 8432.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 59 - 9 = ?",
+        "expected": 50,
+        "predicted_text": "40",
+        "predicted_num": 40.0,
+        "correct": false,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 88 + 72 = ?",
+        "expected": 160,
+        "predicted_text": "160",
+        "predicted_num": 160.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 59 + 198 = ?",
+        "expected": 257,
+        "predicted_text": "747",
+        "predicted_num": 747.0,
+        "correct": false,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 163 - 44 = ?",
+        "expected": 119,
+        "predicted_text": "129",
+        "predicted_num": 129.0,
+        "correct": false,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 33 * 33 = ?",
+        "expected": 1089,
+        "predicted_text": "1089",
+        "predicted_num": 1089.0,
+        "correct": true,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 183 * 80 = ?",
+        "expected": 14640,
+        "predicted_text": "14640",
+        "predicted_num": 14640.0,
+        "correct": true,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 180 - 69 = ?",
+        "expected": 111,
+        "predicted_text": "111",
+        "predicted_num": 111.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 130 * 156 = ?",
+        "expected": 20280,
+        "predicted_text": "19,480",
+        "predicted_num": 19480.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 46 * 130 = ?",
+        "expected": 5980,
+        "predicted_text": "5980",
+        "predicted_num": 5980.0,
+        "correct": true,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 68 - 37 = ?",
+        "expected": 31,
+        "predicted_text": "21",
+        "predicted_num": 21.0,
+        "correct": false,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 12 + 187 = ?",
+        "expected": 199,
+        "predicted_text": "309",
+        "predicted_num": 309.0,
+        "correct": false,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 192 - 150 = ?",
+        "expected": 42,
+        "predicted_text": "32",
+        "predicted_num": 32.0,
+        "correct": false,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 1 * 185 = ?",
+        "expected": 185,
+        "predicted_text": "1 * 185 = 185",
+        "predicted_num": 185.0,
+        "correct": true,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 144 / 9 = ?",
+        "expected": 16,
+        "predicted_text": "16",
+        "predicted_num": 16.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 2185 / 95 = ?",
+        "expected": 23,
+        "predicted_text": "23.0769230769231",
+        "predicted_num": 23.0769230769231,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 21 * 22 = ?",
+        "expected": 462,
+        "predicted_text": "462",
+        "predicted_num": 462.0,
+        "correct": true,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 88 * 29 = ?",
+        "expected": 2552,
+        "predicted_text": "2752",
+        "predicted_num": 2752.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 7 + 190 = ?",
+        "expected": 197,
+        "predicted_text": "207",
+        "predicted_num": 207.0,
+        "correct": false,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 24 + 56 = ?",
+        "expected": 80,
+        "predicted_text": "80",
+        "predicted_num": 80.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 77 * 164 = ?",
+        "expected": 12628,
+        "predicted_text": "11588",
+        "predicted_num": 11588.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 69 - 17 = ?",
+        "expected": 52,
+        "predicted_text": "52",
+        "predicted_num": 52.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 60 + 26 = ?",
+        "expected": 86,
+        "predicted_text": "86",
+        "predicted_num": 86.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 3 * 175 = ?",
+        "expected": 525,
+        "predicted_text": "525",
+        "predicted_num": 525.0,
+        "correct": true,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 3784 / 88 = ?",
+        "expected": 43,
+        "predicted_text": "45.0",
+        "predicted_num": 45.0,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 115 + 151 = ?",
+        "expected": 266,
+        "predicted_text": "266",
+        "predicted_num": 266.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 119 - 98 = ?",
+        "expected": 21,
+        "predicted_text": "21",
+        "predicted_num": 21.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 1674 / 54 = ?",
+        "expected": 31,
+        "predicted_text": "30.88888888888889",
+        "predicted_num": 30.88888888888889,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 2494 / 86 = ?",
+        "expected": 29,
+        "predicted_text": "30.5714285714286",
+        "predicted_num": 30.5714285714286,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 200 * 136 = ?",
+        "expected": 27200,
+        "predicted_text": "200 * 136 = 27200",
+        "predicted_num": 27200.0,
+        "correct": true,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 185 * 68 = ?",
+        "expected": 12580,
+        "predicted_text": "11920",
+        "predicted_num": 11920.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 193 * 69 = ?",
+        "expected": 13317,
+        "predicted_text": "12077",
+        "predicted_num": 12077.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 155 + 68 = ?",
+        "expected": 223,
+        "predicted_text": "223",
+        "predicted_num": 223.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 148 + 50 = ?",
+        "expected": 198,
+        "predicted_text": "198",
+        "predicted_num": 198.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 12 / 2 = ?",
+        "expected": 6,
+        "predicted_text": "6",
+        "predicted_num": 6.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 191 - 144 = ?",
+        "expected": 47,
+        "predicted_text": "57",
+        "predicted_num": 57.0,
+        "correct": false,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 169 * 122 = ?",
+        "expected": 20618,
+        "predicted_text": "20538",
+        "predicted_num": 20538.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 194 * 187 = ?",
+        "expected": 36278,
+        "predicted_text": "36529",
+        "predicted_num": 36529.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 175 * 138 = ?",
+        "expected": 24150,
+        "predicted_text": "26450",
+        "predicted_num": 26450.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 176 - 57 = ?",
+        "expected": 119,
+        "predicted_text": "119",
+        "predicted_num": 119.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 1056 / 33 = ?",
+        "expected": 32,
+        "predicted_text": "32.07692307692308",
+        "predicted_num": 32.07692307692308,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 153 - 98 = ?",
+        "expected": 55,
+        "predicted_text": "65",
+        "predicted_num": 65.0,
+        "correct": false,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 174 + 190 = ?",
+        "expected": 364,
+        "predicted_text": "364",
+        "predicted_num": 364.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 2332 / 53 = ?",
+        "expected": 44,
+        "predicted_text": "41.07692307692308",
+        "predicted_num": 41.07692307692308,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 29 - 13 = ?",
+        "expected": 16,
+        "predicted_text": "26",
+        "predicted_num": 26.0,
+        "correct": false,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 76 + 161 = ?",
+        "expected": 237,
+        "predicted_text": "237",
+        "predicted_num": 237.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 131 - 127 = ?",
+        "expected": 4,
+        "predicted_text": "14",
+        "predicted_num": 14.0,
+        "correct": false,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 141 * 43 = ?",
+        "expected": 6063,
+        "predicted_text": "5723",
+        "predicted_num": 5723.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 1139 / 67 = ?",
+        "expected": 17,
+        "predicted_text": "18.542047619047619",
+        "predicted_num": 18.54204761904762,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 164 - 70 = ?",
+        "expected": 94,
+        "predicted_text": "94",
+        "predicted_num": 94.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 21 + 142 = ?",
+        "expected": 163,
+        "predicted_text": "363",
+        "predicted_num": 363.0,
+        "correct": false,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 137 * 197 = ?",
+        "expected": 26989,
+        "predicted_text": "25849",
+        "predicted_num": 25849.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 197 * 165 = ?",
+        "expected": 32505,
+        "predicted_text": "34205",
+        "predicted_num": 34205.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 2125 / 85 = ?",
+        "expected": 25,
+        "predicted_text": "27.04306129534979",
+        "predicted_num": 27.04306129534979,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 175 - 41 = ?",
+        "expected": 134,
+        "predicted_text": "134",
+        "predicted_num": 134.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 9 + 8 = ?",
+        "expected": 17,
+        "predicted_text": "17",
+        "predicted_num": 17.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 330 / 11 = ?",
+        "expected": 30,
+        "predicted_text": "30",
+        "predicted_num": 30.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 756 / 54 = ?",
+        "expected": 14,
+        "predicted_text": "12.0",
+        "predicted_num": 12.0,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 60 + 130 = ?",
+        "expected": 190,
+        "predicted_text": "190",
+        "predicted_num": 190.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 64 - 36 = ?",
+        "expected": 28,
+        "predicted_text": "18",
+        "predicted_num": 18.0,
+        "correct": false,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 3864 / 92 = ?",
+        "expected": 42,
+        "predicted_text": "40.5",
+        "predicted_num": 40.5,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 40 / 10 = ?",
+        "expected": 4,
+        "predicted_text": "4",
+        "predicted_num": 4.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 163 - 117 = ?",
+        "expected": 46,
+        "predicted_text": "56",
+        "predicted_num": 56.0,
+        "correct": false,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 1232 / 77 = ?",
+        "expected": 16,
+        "predicted_text": "15.042857142857143",
+        "predicted_num": 15.042857142857143,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 2030 / 58 = ?",
+        "expected": 35,
+        "predicted_text": "34.105263157894736",
+        "predicted_num": 34.10526315789473,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 144 + 51 = ?",
+        "expected": 195,
+        "predicted_text": "195",
+        "predicted_num": 195.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 1628 / 37 = ?",
+        "expected": 44,
+        "predicted_text": "42.000000",
+        "predicted_num": 42.0,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 120 * 136 = ?",
+        "expected": 16320,
+        "predicted_text": "15840",
+        "predicted_num": 15840.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 243 / 9 = ?",
+        "expected": 27,
+        "predicted_text": "243 / 9 = 27",
+        "predicted_num": 27.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 180 + 140 = ?",
+        "expected": 320,
+        "predicted_text": "320",
+        "predicted_num": 320.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 199 - 15 = ?",
+        "expected": 184,
+        "predicted_text": "184",
+        "predicted_num": 184.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 161 - 40 = ?",
+        "expected": 121,
+        "predicted_text": "121",
+        "predicted_num": 121.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 187 - 137 = ?",
+        "expected": 50,
+        "predicted_text": "20",
+        "predicted_num": 20.0,
+        "correct": false,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 98 + 72 = ?",
+        "expected": 170,
+        "predicted_text": "170",
+        "predicted_num": 170.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 2100 / 70 = ?",
+        "expected": 30,
+        "predicted_text": "30",
+        "predicted_num": 30.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 188 * 125 = ?",
+        "expected": 23500,
+        "predicted_text": "25500",
+        "predicted_num": 25500.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 194 - 24 = ?",
+        "expected": 170,
+        "predicted_text": "160",
+        "predicted_num": 160.0,
+        "correct": false,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 55 * 139 = ?",
+        "expected": 7645,
+        "predicted_text": "7885",
+        "predicted_num": 7885.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 138 - 68 = ?",
+        "expected": 70,
+        "predicted_text": "220",
+        "predicted_num": 220.0,
+        "correct": false,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 42 * 139 = ?",
+        "expected": 5838,
+        "predicted_text": "5398",
+        "predicted_num": 5398.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 164 + 29 = ?",
+        "expected": 193,
+        "predicted_text": "164 + 29 = 193",
+        "predicted_num": 193.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 51 * 40 = ?",
+        "expected": 2040,
+        "predicted_text": "2040",
+        "predicted_num": 2040.0,
+        "correct": true,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 475 / 25 = ?",
+        "expected": 19,
+        "predicted_text": "19",
+        "predicted_num": 19.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 108 + 57 = ?",
+        "expected": 165,
+        "predicted_text": "165",
+        "predicted_num": 165.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 83 * 126 = ?",
+        "expected": 10458,
+        "predicted_text": "9958",
+        "predicted_num": 9958.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 197 - 84 = ?",
+        "expected": 113,
+        "predicted_text": "253",
+        "predicted_num": 253.0,
+        "correct": false,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 531 / 59 = ?",
+        "expected": 9,
+        "predicted_text": "9.427689013067783",
+        "predicted_num": 9.427689013067782,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 528 / 33 = ?",
+        "expected": 16,
+        "predicted_text": "14.076923076923077",
+        "predicted_num": 14.076923076923077,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 93 * 79 = ?",
+        "expected": 7347,
+        "predicted_text": "6817",
+        "predicted_num": 6817.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 95 - 91 = ?",
+        "expected": 4,
+        "predicted_text": "4",
+        "predicted_num": 4.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 184 - 81 = ?",
+        "expected": 103,
+        "predicted_text": "203",
+        "predicted_num": 203.0,
+        "correct": false,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 27 + 24 = ?",
+        "expected": 51,
+        "predicted_text": "51",
+        "predicted_num": 51.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 58 + 36 = ?",
+        "expected": 94,
+        "predicted_text": "94",
+        "predicted_num": 94.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 3572 / 94 = ?",
+        "expected": 38,
+        "predicted_text": "3572 ÷ 94 = 37",
+        "predicted_num": 37.0,
+        "correct": false,
+        "op": "/"
+      }
+    ],
+    "gpro": [
+      {
+        "question": "请计算: 156 * 109 = ?",
+        "expected": 17004,
+        "predicted_text": "156 * 109 = 17084",
+        "predicted_num": 17084.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 103 - 81 = ?",
+        "expected": 22,
+        "predicted_text": "22",
+        "predicted_num": 22.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 264 / 44 = ?",
+        "expected": 6,
+        "predicted_text": "6",
+        "predicted_num": 6.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 185 * 30 = ?",
+        "expected": 5550,
+        "predicted_text": "5550",
+        "predicted_num": 5550.0,
+        "correct": true,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 118 + 138 = ?",
+        "expected": 256,
+        "predicted_text": "256",
+        "predicted_num": 256.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 62 * 146 = ?",
+        "expected": 9052,
+        "predicted_text": "8752",
+        "predicted_num": 8752.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 62 * 15 = ?",
+        "expected": 930,
+        "predicted_text": "930",
+        "predicted_num": 930.0,
+        "correct": true,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 672 / 84 = ?",
+        "expected": 8,
+        "predicted_text": "8",
+        "predicted_num": 8.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 96 * 196 = ?",
+        "expected": 18816,
+        "predicted_text": "18,576",
+        "predicted_num": 18576.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 179 + 109 = ?",
+        "expected": 288,
+        "predicted_text": "288",
+        "predicted_num": 288.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 68 * 136 = ?",
+        "expected": 9248,
+        "predicted_text": "9028",
+        "predicted_num": 9028.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 28 * 161 = ?",
+        "expected": 4508,
+        "predicted_text": "4508",
+        "predicted_num": 4508.0,
+        "correct": true,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 94 - 42 = ?",
+        "expected": 52,
+        "predicted_text": "52",
+        "predicted_num": 52.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 32 + 97 = ?",
+        "expected": 129,
+        "predicted_text": "129",
+        "predicted_num": 129.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 710 / 71 = ?",
+        "expected": 10,
+        "predicted_text": "10",
+        "predicted_num": 10.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 92 + 89 = ?",
+        "expected": 181,
+        "predicted_text": "181",
+        "predicted_num": 181.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 99 - 17 = ?",
+        "expected": 82,
+        "predicted_text": "82",
+        "predicted_num": 82.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 155 + 7 = ?",
+        "expected": 162,
+        "predicted_text": "162",
+        "predicted_num": 162.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 230 / 10 = ?",
+        "expected": 23,
+        "predicted_text": "23",
+        "predicted_num": 23.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 98 + 25 = ?",
+        "expected": 123,
+        "predicted_text": "123",
+        "predicted_num": 123.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 189 + 27 = ?",
+        "expected": 216,
+        "predicted_text": "216",
+        "predicted_num": 216.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 255 / 15 = ?",
+        "expected": 17,
+        "predicted_text": "17",
+        "predicted_num": 17.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 2400 / 75 = ?",
+        "expected": 32,
+        "predicted_text": "32.0",
+        "predicted_num": 32.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 181 + 18 = ?",
+        "expected": 199,
+        "predicted_text": "309",
+        "predicted_num": 309.0,
+        "correct": false,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 75 + 21 = ?",
+        "expected": 96,
+        "predicted_text": "96",
+        "predicted_num": 96.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 156 - 19 = ?",
+        "expected": 137,
+        "predicted_text": "137",
+        "predicted_num": 137.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 196 + 87 = ?",
+        "expected": 283,
+        "predicted_text": "283",
+        "predicted_num": 283.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 150 - 110 = ?",
+        "expected": 40,
+        "predicted_text": "40",
+        "predicted_num": 40.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 1152 / 72 = ?",
+        "expected": 16,
+        "predicted_text": "17",
+        "predicted_num": 17.0,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 156 / 4 = ?",
+        "expected": 39,
+        "predicted_text": "39",
+        "predicted_num": 39.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 129 * 196 = ?",
+        "expected": 25284,
+        "predicted_text": "24084",
+        "predicted_num": 24084.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 112 / 14 = ?",
+        "expected": 8,
+        "predicted_text": "8",
+        "predicted_num": 8.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 128 - 102 = ?",
+        "expected": 26,
+        "predicted_text": "26",
+        "predicted_num": 26.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 960 / 64 = ?",
+        "expected": 15,
+        "predicted_text": "12",
+        "predicted_num": 12.0,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 475 / 95 = ?",
+        "expected": 5,
+        "predicted_text": "5",
+        "predicted_num": 5.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 71 + 63 = ?",
+        "expected": 134,
+        "predicted_text": "134",
+        "predicted_num": 134.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 177 - 143 = ?",
+        "expected": 34,
+        "predicted_text": "34",
+        "predicted_num": 34.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 153 - 109 = ?",
+        "expected": 44,
+        "predicted_text": "44",
+        "predicted_num": 44.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 364 / 26 = ?",
+        "expected": 14,
+        "predicted_text": "14",
+        "predicted_num": 14.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 576 / 72 = ?",
+        "expected": 8,
+        "predicted_text": "8",
+        "predicted_num": 8.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 344 / 8 = ?",
+        "expected": 43,
+        "predicted_text": "42.5",
+        "predicted_num": 42.5,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 57 - 36 = ?",
+        "expected": 21,
+        "predicted_text": "21",
+        "predicted_num": 21.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 159 + 93 = ?",
+        "expected": 252,
+        "predicted_text": "252",
+        "predicted_num": 252.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 146 - 55 = ?",
+        "expected": 91,
+        "predicted_text": "91",
+        "predicted_num": 91.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 177 * 52 = ?",
+        "expected": 9204,
+        "predicted_text": "8924",
+        "predicted_num": 8924.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 172 - 54 = ?",
+        "expected": 118,
+        "predicted_text": "172 - 54 = 118",
+        "predicted_num": 118.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 63 - 42 = ?",
+        "expected": 21,
+        "predicted_text": "21",
+        "predicted_num": 21.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 40 + 56 = ?",
+        "expected": 96,
+        "predicted_text": "96",
+        "predicted_num": 96.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 175 - 166 = ?",
+        "expected": 9,
+        "predicted_text": "9",
+        "predicted_num": 9.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 165 - 118 = ?",
+        "expected": 47,
+        "predicted_text": "47",
+        "predicted_num": 47.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 18 * 195 = ?",
+        "expected": 3510,
+        "predicted_text": "3510",
+        "predicted_num": 3510.0,
+        "correct": true,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 195 + 41 = ?",
+        "expected": 236,
+        "predicted_text": "236",
+        "predicted_num": 236.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 72 + 2 = ?",
+        "expected": 74,
+        "predicted_text": "74",
+        "predicted_num": 74.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 41 * 117 = ?",
+        "expected": 4797,
+        "predicted_text": "4697",
+        "predicted_num": 4697.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 12 + 170 = ?",
+        "expected": 182,
+        "predicted_text": "182",
+        "predicted_num": 182.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 103 - 93 = ?",
+        "expected": 10,
+        "predicted_text": "10",
+        "predicted_num": 10.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 140 + 23 = ?",
+        "expected": 163,
+        "predicted_text": "163",
+        "predicted_num": 163.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 168 - 55 = ?",
+        "expected": 113,
+        "predicted_text": "113",
+        "predicted_num": 113.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 152 + 109 = ?",
+        "expected": 261,
+        "predicted_text": "261",
+        "predicted_num": 261.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 5 * 29 = ?",
+        "expected": 145,
+        "predicted_text": "145",
+        "predicted_num": 145.0,
+        "correct": true,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 65 * 142 = ?",
+        "expected": 9230,
+        "predicted_text": "9170",
+        "predicted_num": 9170.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 1363 / 47 = ?",
+        "expected": 29,
+        "predicted_text": "28.571429",
+        "predicted_num": 28.571429,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 1037 / 61 = ?",
+        "expected": 17,
+        "predicted_text": "17",
+        "predicted_num": 17.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 184 + 167 = ?",
+        "expected": 351,
+        "predicted_text": "351",
+        "predicted_num": 351.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 1 * 154 = ?",
+        "expected": 154,
+        "predicted_text": "1 * 154 = 154",
+        "predicted_num": 154.0,
+        "correct": true,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 551 / 19 = ?",
+        "expected": 29,
+        "predicted_text": "27",
+        "predicted_num": 27.0,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 76 * 112 = ?",
+        "expected": 8512,
+        "predicted_text": "8432",
+        "predicted_num": 8432.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 59 - 9 = ?",
+        "expected": 50,
+        "predicted_text": "40",
+        "predicted_num": 40.0,
+        "correct": false,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 88 + 72 = ?",
+        "expected": 160,
+        "predicted_text": "160",
+        "predicted_num": 160.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 59 + 198 = ?",
+        "expected": 257,
+        "predicted_text": "257",
+        "predicted_num": 257.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 163 - 44 = ?",
+        "expected": 119,
+        "predicted_text": "119",
+        "predicted_num": 119.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 33 * 33 = ?",
+        "expected": 1089,
+        "predicted_text": "1089",
+        "predicted_num": 1089.0,
+        "correct": true,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 183 * 80 = ?",
+        "expected": 14640,
+        "predicted_text": "14640",
+        "predicted_num": 14640.0,
+        "correct": true,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 180 - 69 = ?",
+        "expected": 111,
+        "predicted_text": "111",
+        "predicted_num": 111.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 130 * 156 = ?",
+        "expected": 20280,
+        "predicted_text": "20,480",
+        "predicted_num": 20480.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 46 * 130 = ?",
+        "expected": 5980,
+        "predicted_text": "5980",
+        "predicted_num": 5980.0,
+        "correct": true,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 68 - 37 = ?",
+        "expected": 31,
+        "predicted_text": "31",
+        "predicted_num": 31.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 12 + 187 = ?",
+        "expected": 199,
+        "predicted_text": "199",
+        "predicted_num": 199.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 192 - 150 = ?",
+        "expected": 42,
+        "predicted_text": "42",
+        "predicted_num": 42.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 1 * 185 = ?",
+        "expected": 185,
+        "predicted_text": "185",
+        "predicted_num": 185.0,
+        "correct": true,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 144 / 9 = ?",
+        "expected": 16,
+        "predicted_text": "16",
+        "predicted_num": 16.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 2185 / 95 = ?",
+        "expected": 23,
+        "predicted_text": "2185 ÷ 95 = 23",
+        "predicted_num": 23.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 21 * 22 = ?",
+        "expected": 462,
+        "predicted_text": "462",
+        "predicted_num": 462.0,
+        "correct": true,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 88 * 29 = ?",
+        "expected": 2552,
+        "predicted_text": "2652",
+        "predicted_num": 2652.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 7 + 190 = ?",
+        "expected": 197,
+        "predicted_text": "207",
+        "predicted_num": 207.0,
+        "correct": false,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 24 + 56 = ?",
+        "expected": 80,
+        "predicted_text": "80",
+        "predicted_num": 80.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 77 * 164 = ?",
+        "expected": 12628,
+        "predicted_text": "12308",
+        "predicted_num": 12308.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 69 - 17 = ?",
+        "expected": 52,
+        "predicted_text": "52",
+        "predicted_num": 52.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 60 + 26 = ?",
+        "expected": 86,
+        "predicted_text": "86",
+        "predicted_num": 86.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 3 * 175 = ?",
+        "expected": 525,
+        "predicted_text": "525",
+        "predicted_num": 525.0,
+        "correct": true,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 3784 / 88 = ?",
+        "expected": 43,
+        "predicted_text": "42",
+        "predicted_num": 42.0,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 115 + 151 = ?",
+        "expected": 266,
+        "predicted_text": "266",
+        "predicted_num": 266.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 119 - 98 = ?",
+        "expected": 21,
+        "predicted_text": "21",
+        "predicted_num": 21.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 1674 / 54 = ?",
+        "expected": 31,
+        "predicted_text": "31.8889",
+        "predicted_num": 31.8889,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 2494 / 86 = ?",
+        "expected": 29,
+        "predicted_text": "29.5",
+        "predicted_num": 29.5,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 200 * 136 = ?",
+        "expected": 27200,
+        "predicted_text": "200 * 136 = 27200",
+        "predicted_num": 27200.0,
+        "correct": true,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 185 * 68 = ?",
+        "expected": 12580,
+        "predicted_text": "11920",
+        "predicted_num": 11920.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 193 * 69 = ?",
+        "expected": 13317,
+        "predicted_text": "12037",
+        "predicted_num": 12037.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 155 + 68 = ?",
+        "expected": 223,
+        "predicted_text": "223",
+        "predicted_num": 223.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 148 + 50 = ?",
+        "expected": 198,
+        "predicted_text": "198",
+        "predicted_num": 198.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 12 / 2 = ?",
+        "expected": 6,
+        "predicted_text": "6",
+        "predicted_num": 6.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 191 - 144 = ?",
+        "expected": 47,
+        "predicted_text": "47",
+        "predicted_num": 47.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 169 * 122 = ?",
+        "expected": 20618,
+        "predicted_text": "169 * 122 = 20538",
+        "predicted_num": 20538.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 194 * 187 = ?",
+        "expected": 36278,
+        "predicted_text": "36528",
+        "predicted_num": 36528.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 175 * 138 = ?",
+        "expected": 24150,
+        "predicted_text": "2,4650",
+        "predicted_num": 24650.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 176 - 57 = ?",
+        "expected": 119,
+        "predicted_text": "119",
+        "predicted_num": 119.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 1056 / 33 = ?",
+        "expected": 32,
+        "predicted_text": "32",
+        "predicted_num": 32.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 153 - 98 = ?",
+        "expected": 55,
+        "predicted_text": "55",
+        "predicted_num": 55.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 174 + 190 = ?",
+        "expected": 364,
+        "predicted_text": "364",
+        "predicted_num": 364.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 2332 / 53 = ?",
+        "expected": 44,
+        "predicted_text": "41",
+        "predicted_num": 41.0,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 29 - 13 = ?",
+        "expected": 16,
+        "predicted_text": "16",
+        "predicted_num": 16.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 76 + 161 = ?",
+        "expected": 237,
+        "predicted_text": "237",
+        "predicted_num": 237.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 131 - 127 = ?",
+        "expected": 4,
+        "predicted_text": "14",
+        "predicted_num": 14.0,
+        "correct": false,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 141 * 43 = ?",
+        "expected": 6063,
+        "predicted_text": "6053",
+        "predicted_num": 6053.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 1139 / 67 = ?",
+        "expected": 17,
+        "predicted_text": "17",
+        "predicted_num": 17.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 164 - 70 = ?",
+        "expected": 94,
+        "predicted_text": "94",
+        "predicted_num": 94.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 21 + 142 = ?",
+        "expected": 163,
+        "predicted_text": "163",
+        "predicted_num": 163.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 137 * 197 = ?",
+        "expected": 26989,
+        "predicted_text": "26809",
+        "predicted_num": 26809.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 197 * 165 = ?",
+        "expected": 32505,
+        "predicted_text": "32005",
+        "predicted_num": 32005.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 2125 / 85 = ?",
+        "expected": 25,
+        "predicted_text": "27.0714285714",
+        "predicted_num": 27.0714285714,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 175 - 41 = ?",
+        "expected": 134,
+        "predicted_text": "134",
+        "predicted_num": 134.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 9 + 8 = ?",
+        "expected": 17,
+        "predicted_text": "17",
+        "predicted_num": 17.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 330 / 11 = ?",
+        "expected": 30,
+        "predicted_text": "30",
+        "predicted_num": 30.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 756 / 54 = ?",
+        "expected": 14,
+        "predicted_text": "13",
+        "predicted_num": 13.0,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 60 + 130 = ?",
+        "expected": 190,
+        "predicted_text": "190",
+        "predicted_num": 190.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 64 - 36 = ?",
+        "expected": 28,
+        "predicted_text": "28",
+        "predicted_num": 28.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 3864 / 92 = ?",
+        "expected": 42,
+        "predicted_text": "42",
+        "predicted_num": 42.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 40 / 10 = ?",
+        "expected": 4,
+        "predicted_text": "4",
+        "predicted_num": 4.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 163 - 117 = ?",
+        "expected": 46,
+        "predicted_text": "46",
+        "predicted_num": 46.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 1232 / 77 = ?",
+        "expected": 16,
+        "predicted_text": "15.0429627978041",
+        "predicted_num": 15.0429627978041,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 2030 / 58 = ?",
+        "expected": 35,
+        "predicted_text": "34",
+        "predicted_num": 34.0,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 144 + 51 = ?",
+        "expected": 195,
+        "predicted_text": "195",
+        "predicted_num": 195.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 1628 / 37 = ?",
+        "expected": 44,
+        "predicted_text": "42",
+        "predicted_num": 42.0,
+        "correct": false,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 120 * 136 = ?",
+        "expected": 16320,
+        "predicted_text": "15,120",
+        "predicted_num": 15120.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 243 / 9 = ?",
+        "expected": 27,
+        "predicted_text": "243 / 9 = 27",
+        "predicted_num": 27.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 180 + 140 = ?",
+        "expected": 320,
+        "predicted_text": "320",
+        "predicted_num": 320.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 199 - 15 = ?",
+        "expected": 184,
+        "predicted_text": "184",
+        "predicted_num": 184.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 161 - 40 = ?",
+        "expected": 121,
+        "predicted_text": "121",
+        "predicted_num": 121.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 187 - 137 = ?",
+        "expected": 50,
+        "predicted_text": "50",
+        "predicted_num": 50.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 98 + 72 = ?",
+        "expected": 170,
+        "predicted_text": "170",
+        "predicted_num": 170.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 2100 / 70 = ?",
+        "expected": 30,
+        "predicted_text": "30",
+        "predicted_num": 30.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 188 * 125 = ?",
+        "expected": 23500,
+        "predicted_text": "21000",
+        "predicted_num": 21000.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 194 - 24 = ?",
+        "expected": 170,
+        "predicted_text": "160",
+        "predicted_num": 160.0,
+        "correct": false,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 55 * 139 = ?",
+        "expected": 7645,
+        "predicted_text": "7485",
+        "predicted_num": 7485.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 138 - 68 = ?",
+        "expected": 70,
+        "predicted_text": "70",
+        "predicted_num": 70.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 42 * 139 = ?",
+        "expected": 5838,
+        "predicted_text": "5606",
+        "predicted_num": 5606.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 164 + 29 = ?",
+        "expected": 193,
+        "predicted_text": "164 + 29 = 193",
+        "predicted_num": 193.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 51 * 40 = ?",
+        "expected": 2040,
+        "predicted_text": "2040",
+        "predicted_num": 2040.0,
+        "correct": true,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 475 / 25 = ?",
+        "expected": 19,
+        "predicted_text": "19",
+        "predicted_num": 19.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 108 + 57 = ?",
+        "expected": 165,
+        "predicted_text": "165",
+        "predicted_num": 165.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 83 * 126 = ?",
+        "expected": 10458,
+        "predicted_text": "9958",
+        "predicted_num": 9958.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 197 - 84 = ?",
+        "expected": 113,
+        "predicted_text": "113",
+        "predicted_num": 113.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 531 / 59 = ?",
+        "expected": 9,
+        "predicted_text": "9",
+        "predicted_num": 9.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 528 / 33 = ?",
+        "expected": 16,
+        "predicted_text": "16",
+        "predicted_num": 16.0,
+        "correct": true,
+        "op": "/"
+      },
+      {
+        "question": "请计算: 93 * 79 = ?",
+        "expected": 7347,
+        "predicted_text": "7417",
+        "predicted_num": 7417.0,
+        "correct": false,
+        "op": "*"
+      },
+      {
+        "question": "请计算: 95 - 91 = ?",
+        "expected": 4,
+        "predicted_text": "4",
+        "predicted_num": 4.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 184 - 81 = ?",
+        "expected": 103,
+        "predicted_text": "103",
+        "predicted_num": 103.0,
+        "correct": true,
+        "op": "-"
+      },
+      {
+        "question": "请计算: 27 + 24 = ?",
+        "expected": 51,
+        "predicted_text": "51",
+        "predicted_num": 51.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 58 + 36 = ?",
+        "expected": 94,
+        "predicted_text": "94",
+        "predicted_num": 94.0,
+        "correct": true,
+        "op": "+"
+      },
+      {
+        "question": "请计算: 3572 / 94 = ?",
+        "expected": 38,
+        "predicted_text": "3572 ÷ 94 = 37",
+        "predicted_num": 37.0,
+        "correct": false,
+        "op": "/"
+      }
+    ]
+  }
+}
